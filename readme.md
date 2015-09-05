@@ -23,7 +23,9 @@ If you get stuck, take a look at Brent Vatne's blog. His blog is my go to refere
 # Api Setup
 
 var React = require('react-native');
+
 var { NativeModules } = React;
+
 var { RNControlScreenSleep } = NativeModules;
 
 RNControlScreenSleep.turnSleep(
