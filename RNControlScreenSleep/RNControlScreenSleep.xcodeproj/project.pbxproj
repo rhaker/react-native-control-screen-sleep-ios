@@ -1,0 +1,401 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		DF49177E1B9A658D008E3A99 /* RNControlScreenSleep.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = DF49177D1B9A658D008E3A99 /* RNControlScreenSleep.h */; };
+		DF4917801B9A658D008E3A99 /* RNControlScreenSleep.m in Sources */ = {isa = PBXBuildFile; fileRef = DF49177F1B9A658D008E3A99 /* RNControlScreenSleep.m */; };
+		DF4917861B9A658D008E3A99 /* libRNControlScreenSleep.a in Frameworks */ = {isa = PBXBuildFile; fileRef = DF49177A1B9A658D008E3A99 /* libRNControlScreenSleep.a */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		DF4917871B9A658D008E3A99 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = DF4917721B9A658D008E3A99 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = DF4917791B9A658D008E3A99;
+			remoteInfo = RNControlScreenSleep;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		DF4917781B9A658D008E3A99 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "include/$(PRODUCT_NAME)";
+			dstSubfolderSpec = 16;
+			files = (
+				DF49177E1B9A658D008E3A99 /* RNControlScreenSleep.h in CopyFiles */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		DF49177A1B9A658D008E3A99 /* libRNControlScreenSleep.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libRNControlScreenSleep.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		DF49177D1B9A658D008E3A99 /* RNControlScreenSleep.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = RNControlScreenSleep.h; sourceTree = "<group>"; };
+		DF49177F1B9A658D008E3A99 /* RNControlScreenSleep.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RNControlScreenSleep.m; sourceTree = "<group>"; };
+		DF4917851B9A658D008E3A99 /* RNControlScreenSleepTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = RNControlScreenSleepTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		DF49178B1B9A658D008E3A99 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		DF4917771B9A658D008E3A99 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DF4917821B9A658D008E3A99 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DF4917861B9A658D008E3A99 /* libRNControlScreenSleep.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		DF4917711B9A658D008E3A99 = {
+			isa = PBXGroup;
+			children = (
+				DF49177C1B9A658D008E3A99 /* RNControlScreenSleep */,
+				DF4917891B9A658D008E3A99 /* RNControlScreenSleepTests */,
+				DF49177B1B9A658D008E3A99 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		DF49177B1B9A658D008E3A99 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				DF49177A1B9A658D008E3A99 /* libRNControlScreenSleep.a */,
+				DF4917851B9A658D008E3A99 /* RNControlScreenSleepTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		DF49177C1B9A658D008E3A99 /* RNControlScreenSleep */ = {
+			isa = PBXGroup;
+			children = (
+				DF49177D1B9A658D008E3A99 /* RNControlScreenSleep.h */,
+				DF49177F1B9A658D008E3A99 /* RNControlScreenSleep.m */,
+			);
+			path = RNControlScreenSleep;
+			sourceTree = "<group>";
+		};
+		DF4917891B9A658D008E3A99 /* RNControlScreenSleepTests */ = {
+			isa = PBXGroup;
+			children = (
+				DF49178A1B9A658D008E3A99 /* Supporting Files */,
+			);
+			path = RNControlScreenSleepTests;
+			sourceTree = "<group>";
+		};
+		DF49178A1B9A658D008E3A99 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				DF49178B1B9A658D008E3A99 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		DF4917791B9A658D008E3A99 /* RNControlScreenSleep */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DF49178E1B9A658D008E3A99 /* Build configuration list for PBXNativeTarget "RNControlScreenSleep" */;
+			buildPhases = (
+				DF4917761B9A658D008E3A99 /* Sources */,
+				DF4917771B9A658D008E3A99 /* Frameworks */,
+				DF4917781B9A658D008E3A99 /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = RNControlScreenSleep;
+			productName = RNControlScreenSleep;
+			productReference = DF49177A1B9A658D008E3A99 /* libRNControlScreenSleep.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+		DF4917841B9A658D008E3A99 /* RNControlScreenSleepTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DF4917911B9A658D008E3A99 /* Build configuration list for PBXNativeTarget "RNControlScreenSleepTests" */;
+			buildPhases = (
+				DF4917811B9A658D008E3A99 /* Sources */,
+				DF4917821B9A658D008E3A99 /* Frameworks */,
+				DF4917831B9A658D008E3A99 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				DF4917881B9A658D008E3A99 /* PBXTargetDependency */,
+			);
+			name = RNControlScreenSleepTests;
+			productName = RNControlScreenSleepTests;
+			productReference = DF4917851B9A658D008E3A99 /* RNControlScreenSleepTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		DF4917721B9A658D008E3A99 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0640;
+				ORGANIZATIONNAME = rhaker;
+				TargetAttributes = {
+					DF4917791B9A658D008E3A99 = {
+						CreatedOnToolsVersion = 6.4;
+					};
+					DF4917841B9A658D008E3A99 = {
+						CreatedOnToolsVersion = 6.4;
+					};
+				};
+			};
+			buildConfigurationList = DF4917751B9A658D008E3A99 /* Build configuration list for PBXProject "RNControlScreenSleep" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = DF4917711B9A658D008E3A99;
+			productRefGroup = DF49177B1B9A658D008E3A99 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				DF4917791B9A658D008E3A99 /* RNControlScreenSleep */,
+				DF4917841B9A658D008E3A99 /* RNControlScreenSleepTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		DF4917831B9A658D008E3A99 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		DF4917761B9A658D008E3A99 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DF4917801B9A658D008E3A99 /* RNControlScreenSleep.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DF4917811B9A658D008E3A99 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		DF4917881B9A658D008E3A99 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = DF4917791B9A658D008E3A99 /* RNControlScreenSleep */;
+			targetProxy = DF4917871B9A658D008E3A99 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		DF49178C1B9A658D008E3A99 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				HEADER_SEARCH_PATHS = (
+					"$(inherited)",
+					/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include,
+					"$(SRCROOT)/node_modules/react-native/React/**",
+					"$(SRCROOT)/../react-native/React/**",
+				);
+				IPHONEOS_DEPLOYMENT_TARGET = 8.4;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		DF49178D1B9A658D008E3A99 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				HEADER_SEARCH_PATHS = (
+					"$(inherited)",
+					/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include,
+					"$(SRCROOT)/node_modules/react-native/React/**",
+					"$(SRCROOT)/../react-native/React/**",
+				);
+				IPHONEOS_DEPLOYMENT_TARGET = 8.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		DF49178F1B9A658D008E3A99 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				HEADER_SEARCH_PATHS = (
+					"$(inherited)",
+					/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include,
+					"$(SRCROOT)/node_modules/react-native/React/**",
+					"$(SRCROOT)/../react-native/React/**",
+				);
+				OTHER_LDFLAGS = "-ObjC";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+		DF4917901B9A658D008E3A99 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				HEADER_SEARCH_PATHS = (
+					"$(inherited)",
+					/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include,
+					"$(SRCROOT)/node_modules/react-native/React/**",
+					"$(SRCROOT)/../react-native/React/**",
+				);
+				OTHER_LDFLAGS = "-ObjC";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
+		DF4917921B9A658D008E3A99 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = RNControlScreenSleepTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		DF4917931B9A658D008E3A99 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = RNControlScreenSleepTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		DF4917751B9A658D008E3A99 /* Build configuration list for PBXProject "RNControlScreenSleep" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DF49178C1B9A658D008E3A99 /* Debug */,
+				DF49178D1B9A658D008E3A99 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DF49178E1B9A658D008E3A99 /* Build configuration list for PBXNativeTarget "RNControlScreenSleep" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DF49178F1B9A658D008E3A99 /* Debug */,
+				DF4917901B9A658D008E3A99 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		DF4917911B9A658D008E3A99 /* Build configuration list for PBXNativeTarget "RNControlScreenSleepTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DF4917921B9A658D008E3A99 /* Debug */,
+				DF4917931B9A658D008E3A99 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = DF4917721B9A658D008E3A99 /* Project object */;
+}
