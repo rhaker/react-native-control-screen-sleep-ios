@@ -41,7 +41,7 @@ RCT_EXPORT_METHOD(turnSleep:(NSString *)sleepDesc
             // Show failure message
             NSDictionary *resultsDict = @{
                                           @"success" : @NO,
-                                          @" errMsg"  : @"App is already in keep awake mode."
+                                          @"errMsg"  : @"App is already in keep awake mode."
                                           };
             
             // Execute the JavaScript failure callback handler
