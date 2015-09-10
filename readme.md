@@ -1,6 +1,6 @@
 # react-native-control-screen-sleep-ios
 
-This is a wrapper for react-native that controls whether a screen can sleep. The options are sleep on, sleep off, or toggle. This is for ios.
+This is a wrapper for react-native that controls whether a screen can sleep. The options are sleep on, sleep off, or toggle. This is for an ios device.
 
 # Add it to your project
 
