@@ -1,6 +1,6 @@
 {
   "name": "react-native-control-screen-sleep-ios",
-  "version": "0.2.0",
+  "version": "0.2.1",
   "description": "A react-native interface for controlling the screen sleep mode. Can be on, off, or toggled.",
   "main": "index.ios.js",
   "scripts": {
@@ -24,7 +24,7 @@
   },
   "homepage": "https://github.com/rhaker/react-native-control-screen-sleep-ios",
   "dependencies": {
-    "react-native": "^0.10.0"
+    "react-native": "^0.12.0"
   },
   "devDependencies": {}
 }
